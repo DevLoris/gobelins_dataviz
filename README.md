@@ -15,21 +15,7 @@ Then, install dependencies
 npm install
 ```
 
-## Run
-### Encore
-#### Watch (dev)
-```
-npm run encore.watch
-```
-
-#### Build 
+## Build
 ```
 npm run encore.prod
-```
-
-### HTTP-Server
-```
-npm run serve
-```
-
-Now, your project is accessible at http://127.0.0.1:8088 !
+``` 
