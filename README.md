@@ -2,6 +2,8 @@
 
 A project about online harassment for Gobelins' Dataviz project. Graphism by Antoine Rault and development by Loris Pinna.
 
+## Demo
+http://harassment.lorispinna.com
 
 ## Installation
 
@@ -15,21 +17,7 @@ Then, install dependencies
 npm install
 ```
 
-## Run
-### Encore
-#### Watch (dev)
-```
-npm run encore.watch
-```
-
-#### Build 
+## Build
 ```
 npm run encore.prod
-```
-
-### HTTP-Server
-```
-npm run serve
-```
-
-Now, your project is accessible at http://127.0.0.1:8088 !
+``` 
