@@ -1,0 +1,6 @@
+Options +FollowSymLinks -MultiViews -Indexes
+DirectoryIndex index.php
+
+RewriteEngine on
+
+RewriteRule ^fr.html$ index.php?lang=fr [L]

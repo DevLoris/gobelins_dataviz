@@ -1,0 +1,12 @@
+{
+  "gender" : [
+    ["slide.3.legend.man", 534],
+    ["slide.3.legend.woman", 438]
+  ],
+  "age" : [
+    ["slide.3.legend.1829", 210],
+    ["slide.3.legend.3049", 334],
+    ["slide.3.legend.5064", 279],
+    ["slide.3.legend.65plus", 146]
+  ]
+}

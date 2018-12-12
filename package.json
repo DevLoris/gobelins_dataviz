@@ -1,0 +1,21 @@
+{
+  "name": "sample-project",
+  "version": "1.0.0",
+  "description": "A sample web project with webpack-encore and http-server",
+  "scripts": {
+    "serve": "http-server -p 8088",
+    "encore.dev": "encore dev",
+    "encore.dev-server": "encore dev-server --hot",
+    "encore.prod": "encore production",
+    "encore.watch": "encore dev --watch"
+  },
+  "author": "Hugo Duval",
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.22.1",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}

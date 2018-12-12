@@ -1,0 +1,131 @@
+
+
+body {
+  padding: 0;
+  margin: 0;
+
+  background: $bg url('../assets/images/bg/bg-grain00001.png') no-repeat center / cover;
+  -webkit-animation: 0.5s bg-intro infinite linear;
+  -moz-animation: none;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  backface-visibility: hidden;
+  transform: translate3d(0,0,1px);
+  will-change: background;
+  image-rendering: crisp-edges;
+}
+
+h1 {
+  color: $red;
+}
+
+a {
+  color: $white;
+  text-decoration: none;
+}
+
+button {
+  font-family: $font;
+  font-size: 20px;
+  border: 2px solid white;
+  padding: 10px 20px;
+  background: none;
+  color: $white;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+  background: $bg;
+
+  &:before {
+    content: '';
+    width: 0px;
+    height: 101%;
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-50%) skewX(-20deg) translateZ(0);
+    background: $white;
+    top: 0;
+    transition: 0.7s width;
+    will-change: transform;
+    backface-visibility: hidden;
+  }
+  &:hover {
+    transition: 1s width;
+    color: $black;
+    &:before {
+      width: 120%;
+    }
+  }
+  &.secondary {
+    background: transparent;
+    color: $red;
+    border: 0;
+    padding: 10px 0;
+    &:before {
+      display: none;
+    }
+  }
+  &.choice-button {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(1.2,1.2) translateZ(0);
+    margin-top: 20px;
+    backface-visibility: hidden;
+    &__display {
+      opacity: 1;
+      pointer-events: auto;
+      transition: 1s opacity, 1s transform;
+      transform: scale(1,1) translateZ(0);
+    }
+    &__l12 {
+      margin-left: 12px;
+    }
+    @media (min-width: 1180px) {
+      &__l20 {
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+nav {
+  z-index: 9999;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  pointer-events: none;
+  display: flex;
+  align-items: flex-start;
+  > a {
+    &.information {
+      background: url("../assets/images/icons/information.png") no-repeat center / cover;
+    }
+    pointer-events: auto;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 10px;
+  }
+}
+
+@keyframes bg-intro {
+  0%, 100% {
+    background-image: url("../assets/images/bg/bg-grain00001.png");
+  }
+  25% {
+    background-image: url("../assets/images/bg/bg-grain00002.png");
+  }
+  50% {
+    background-image: url("../assets/images/bg/bg-grain00003.png");
+  }
+  75% {
+    background-image: url("../assets/images/bg/bg-grain00004.png");
+  }
+}

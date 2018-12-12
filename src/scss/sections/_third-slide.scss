@@ -1,0 +1,26 @@
+.scene__3 {
+  &.scene__ended {
+    transform: translateY(-100%);
+    transition: 5s $curve;
+    z-index: 1;
+    .line {
+        opacity: 1;
+      height: 100%;
+    }
+  }
+  .line {
+    opacity: 1;
+    top: 0;
+    height: 0;
+  }
+  &.scene__active {
+    transition: 5s $curve;
+    z-index: 2;
+
+    .line {
+      transition: 3s linear;
+      opacity: 1;
+      height: 100%
+    }
+  }
+}

@@ -1,0 +1,104 @@
+.scene__6 {
+  &.scene__ended {
+    transform: translateX(-100%);
+    transition: 5s $curve;
+    z-index: 1;
+  }
+  .line {
+    opacity: 1;
+    width: 0%;
+    right: 0;
+    left: auto;
+    z-index: 2;
+  }
+  .door-red {
+    z-index: 3;
+    position: absolute;
+    width: 130px;
+    height: 393px;
+    top: 50%;
+    left: 50%;
+    transform: translate(calc(-224px), -50%) translateZ(0);
+  }
+  .door {
+    z-index: 0;
+    position: absolute;
+    width: 227px;
+    height: 393px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) translateZ(0);
+    img {
+
+    }
+  }
+  .door-shadow {
+    position: absolute;
+    width: 779px;
+    height: 437px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-397px, 163px) translateZ(0);
+    background:  no-repeat center / contain;
+    animation: 0.5s bg-ombre infinite linear;
+  }
+  &.scene__active {
+    transition: 5s $curve;
+    z-index: 2;
+    .line {
+      transition: 3s linear;
+      width: calc(50% + 105px);
+      right: 0;
+      left: auto;
+    }
+  }
+
+  .links {
+    width: 30%;
+    left: 60%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, 30px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: 1s;
+    pointer-events: auto;
+    .link-header {
+      width: 100%;
+      padding: 5px 10px;
+      font-size: 24px;
+      letter-spacing: 0.04em;
+      font-weight: bold;
+      color : $red;
+      font-family: $font;
+    }
+    &.links__hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+    .link-item {
+      width: 50%;
+      padding: 10px;
+      box-sizing: border-box;
+      img {
+        width: 100% ;
+      }
+    }
+  }
+}
+
+
+@keyframes bg-ombre {
+  0%, 100% {
+    background-image: url("../assets/images/final/ombre-1.png");
+  }
+  33% {
+    background-image: url("../assets/images/final/ombre-2.png");
+  }
+  66% {
+    background-image: url("../assets/images/final/ombre-3.png");
+  }
+}

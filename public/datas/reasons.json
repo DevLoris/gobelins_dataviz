@@ -1,0 +1,43 @@
+[
+    {
+      "name": "Politique",
+      "value": 14,
+      "icons": "icons/icon-politique3.png",
+      "text_key": "slide.2.legend.politic"
+    } ,{
+      "name": "Physique",
+      "value": 9,
+      "icons": "icons/icon-physique-2.png",
+      "text_key": "slide.2.legend.physical"
+} ,{
+      "name": "Sexe",
+      "value": 8,
+      "icons": "icons/icon-sexe.png",
+  "text_key": "slide.2.legend.sex"
+    } ,{
+      "name": "Couleur de peau",
+      "value": 8,
+      "icons": "icons/icon-peau.png",
+  "text_key": "slide.2.legend.skin"
+    } ,{
+      "name": "Religion",
+      "value": 5,
+      "icons": "icons/icon-croix.png",
+  "text_key": "slide.2.legend.religion"
+    } ,{
+      "name": "Orientation sexuelle",
+      "value": 3,
+      "icons": "icons/icon-lgbt.png",
+  "text_key": "slide.2.legend.orientation"
+    } ,{
+      "name": "Activités",
+      "value": 3,
+      "icons": "icons/icon-activite.png",
+  "text_key": "slide.2.legend.activity"
+    } ,{
+      "name": "Handicap",
+      "value": 1,
+      "icons": "icons/icon-handicap.png",
+  "text_key": "slide.2.legend.handicap"
+    }
+  ]

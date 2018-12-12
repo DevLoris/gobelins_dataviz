@@ -1,0 +1,25 @@
+{
+  "gender" : [
+    ["x", "??"],
+    ["slide.3.legend.man", 2],
+    ["slide.3.legend.woman", 3]
+  ],
+  "graduation" : [
+    ["x", "??"],
+    ["slide.5.legend.less-hs", 5],
+    ["slide.5.legend.hs-graduate", 2],
+    ["slide.5.legend.some-college", 4],
+    ["slide.5.legend.college-graduate", 1]
+  ],
+  "sexual" : [
+    ["x", "??"],
+    ["slide.5.legend.lgb", 7],
+    ["slide.5.legend.hetero", 2]
+  ],
+  "age" : [
+    ["x", "??"],
+    ["slide.3.legend.1829", 5],
+    ["slide.3.legend.3049", 2],
+    ["slide.3.legend.5064", 1]
+  ]
+}

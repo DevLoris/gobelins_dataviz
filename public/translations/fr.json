@@ -1,0 +1,83 @@
+{
+  "project.name": "Observe, un cas d'harcèlement en ligne",
+  "project.desc": "Rencontrez l'inspecteur Drazel, qui enquête sur le harcèlement en ligne et resolvez une petite enquête !",
+
+  "intro.button": "Prêt à inspecter ?",
+  "intro.first" : "Une partie des réseaux sociaux est remplie de discours haineux et d'insultes ...",
+  "intro.second" : "Ces comportements mènent parfois à du harcèlement...",
+  "intro.third" : "Beaucoup pensent que seulement les mineurs et jeunes adultes en sont victime...",
+  "intro.fourth" : "Pourtant, les adultes sont tout autant concernés...",
+
+  "intro.inspector.first": "C’est de pire en pire... Y’a de plus en plus de menaces sur internet, on vient de m’appeler pour résoudre une petite affaire de harcèlement en ligne.",
+  "intro.inspector.second": "Ca te dirait de faire équipe et d’enquêter avec moi, l’inspecteur Drazel ? ",
+  "intro.button.2": "Je n'ai pas le choix... donc oui ?",
+
+  "slide.1.first": "1/3 des gens utilisent Instagram maintenant... ca ne fait qu'augmenter, on est de plus en plus exposé et c'est l'un des pires réseaux...",
+  "slide.1.second": "J'espère que les gens passent très peu de temps sur les réseaux sociaux... Ca serait un bon début",
+  "slide.1.second.button": "Voir le temps passé sur les réseaux",
+  "slide.1.third": "Bon, très mauvaise nouvelle... les gens passent de plus en plus de temps sur les différentes plateformes... Faudrait que je regarde pourquoi les gens sont harcelés...",
+  "slide.1.third.button.1": "Voir utilisation réseaux sociaux",
+  "slide.1.third.button.2": "Voir temps d'utilisation",
+
+  "slide.2.first" : "Bon bon bon, j’ai regardé les interactions d’autres personnes avec notre victime, et regarde un peu ce que j’ai trouvé... D’ailleurs petite question, pour toi, c’est quoi la raison qui pousse le plus au harcèlement ? ",
+  "slide.2.first.option.1" : "Opinion politique",
+  "slide.2.first.option.2" : "Sexe",
+  "slide.2.first.option.3" : "Apparance physique",
+  "slide.2.first.option.4" : "Couleur de peau",
+
+  "slide.2.second.1" : "Bravo ! Je l’aurais pas deviné si je l’avais pas vu avant ahah ! T’es un bon enquêteur.",
+  "slide.2.second.2" : "Et bien figure toi, que c’est pour des raisons politiques. J’ai moi même été étonné en le découvrant !",
+
+  "slide.2.legend.politic.name" : "politiques",
+  "slide.2.legend.physical.name" : "physiques",
+  "slide.2.legend.sex.name" : "sexuelles",
+  "slide.2.legend.skin.name" : "de couleurs de peau",
+  "slide.2.legend.religion.name" : "religions",
+  "slide.2.legend.orientation.name" : "d'orientation sexuelle",
+  "slide.2.legend.activity.name" : "d'activités",
+  "slide.2.legend.handicap.name" : "de handicap",
+  "slide.2.legend" : " des adultes ont été harcelés sur internet pour des raisons ",
+
+  "slide.3.first":  "Hum c'est étrange un mec qui se fait harceler, j'veux dire, d'habitude c'est plutôt les femmes, on est d'accord ?",
+  "slide.3.first.button.1":  "Oui",
+  "slide.3.first.button.2":  "Non",
+  "slide.3.first.button.1.reply":  "On s’est trompé tien, j’aurais jamais pensé ça !  Je suis étonné. Tiens l'age aussi a peut être une importance, je te laisse regarder ça j'ai un ou deux dossiers à renommer !",
+  "slide.3.first.button.2.reply":  "Ah oui t’as raison, j’aurais jamais pensé ça ! Je suis étonné. Tiens l'age aussi a peut être une importance, je te laisse regarder ça j'ai un ou deux dossiers à renommer !",
+
+  "slide.3.legend.man":  "Homme",
+  "slide.3.legend.woman":  "Femme",
+  "slide.3.legend.1829":  "18-29",
+  "slide.3.legend.3049":  "30-49",
+  "slide.3.legend.5064":  "50-64",
+  "slide.3.legend.65plus":  "65+",
+
+  "slide.5.legend.less-hs" : "Less than high school",
+  "slide.5.legend.hs-graduate" : "High school graduate",
+  "slide.5.legend.some-college" : "Some college",
+  "slide.5.legend.college-graduate" : "College graduate",
+  "slide.5.legend.hetero" : "Hétérosexuel",
+  "slide.5.legend.lgb" : "LGB",
+
+  "slide.5.first": "Oh putain je crois que j’ai trouvé un truc, regarde ça ... Il y avait des nudes de lui sur les réseaux... C’est sûrement du Revenge Porn. Le nombre de personnes qui se suicident après du revenge porn ne fait qu'augmenter. C’est terrible. ",
+
+  "slide.4.name" : "Américains harcelés par : ",
+  "slide.4.how.stalking" : "Traque / espionnage",
+  "slide.4.how.purposeful-embarrassement" : "Embarras intentionnel",
+  "slide.4.how.physical-treats" : "Menaces physiques",
+  "slide.4.how.offensive-name-calling" : "Surnoms offensants",
+  "slide.4.how.sustained-harassment" : "Harcélement continu",
+  "slide.4.how.sexual-harassment" : "Harcélement sexuel",
+  "slide.4.first": "Bon du coup on connaît les raisons les plus importantes mais qu’est-ce qui a pu le pousser à se suicider ... Ah merde, j’ai trouvé des données mais elles sont pas rangées, dis, tu pourrais m’aider à les ranger ? Faut que tu renommes mes dossier",
+  "slide.4.second": "Hmmmm merci le novice, vu qu’on est sur un cas vraiment sérieux, je pense pas que ça soit seulement des insultes, c’est peut-être un contenu qui l’a fait réagir... Je vais checker un truc...",
+
+  "slide.4.first.button": "Aider l'inspecteur",
+
+  "slide.6.first": "Bon il est temps pour moi d’aller sur la scène du crime. Je te laisse contacter des organismes si tu vois d’autres cas de harcèlement, ça va vite sur la toile.",
+  "slide.6.header": "Contacte les",
+  "legend.1": "% des adultes qui utilisent les différents réseaux sociaux aux USA entre 2012-2017",
+  "legend.2": "temps d'utilisation quotidien des différents réseaux sociaux aux USA durant une année",
+  "legend.5":  "% des adultes américains qui ont subis du harcèlement en ligne en 2017",
+  "legend.6": "% de victimes de revenge porn"
+
+}
+

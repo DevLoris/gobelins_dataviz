@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Bitter";
+  src: url("../assets/font/Bitter-Regular.ttf");
+}
+@font-face {
+  font-family: "Bitter";
+  font-weight: bold;
+  src: url("../assets/font/Bitter-Bold.ttf");
+}
+
+$font : 'Bitter', mono, serif;

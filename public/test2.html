@@ -1,0 +1,55 @@
+<html>
+<head>
+<meta charset="UTF-8">
+             <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+                         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+             <title>Document</title>
+    <link rel="stylesheet" href="build/app.css">
+</head>
+<body>
+
+<div id="XAxisTickValues"></div>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://naver.github.io/billboard.js/release/latest/dist/billboard.js"></script>
+<script>
+d3.json('datas/demography-stats.json').then( function(data) {
+data.gender.forEach((v, k) => {
+    v.forEach((value, key) => {
+        if(key == 0)
+            data.gender[k][key] = value
+    })
+});
+data.age.forEach((v, k) => {
+    v.forEach((value, key) => {
+        if(key == 0)
+            data.age[k][key] = value
+    })
+});
+
+var chart = bb.generate({
+  data: {
+    columns: data.gender,
+    type: "pie"
+  },
+  tooltip: {
+      show: false
+  },
+  legend: {
+      position: "inset",
+      contents: {
+          template(title, color) {
+            console.log(title);
+            return "x";
+          }
+      }
+  },
+  bindto
+ : "#XAxisTickValues"
+});
+
+
+})
+</script>
+
+</body>
+</html>

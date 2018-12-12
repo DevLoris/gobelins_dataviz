@@ -1,0 +1,25 @@
+@import "styles/variables";
+@import "styles/typo";
+@import "styles/base";
+@import "styles/lines";
+@import "styles/graphic";
+@import "styles/buttons";
+
+//animations
+@import "animations/glitch-text";
+@import "animations/letter-fade";
+
+//sections
+@import "sections/scene";
+@import "sections/intro";
+@import "sections/inspector";
+@import "sections/first-slide";
+@import "sections/second-slide";
+@import "sections/third-slide";
+@import "sections/fourth-slide";
+@import "sections/fifth-slide";
+@import "sections/sixth-slide";
+@import "sections/credits";
+
+//lib
+@import "billboard/billboard";

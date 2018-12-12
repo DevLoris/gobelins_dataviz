@@ -1,0 +1,86 @@
+.scene__2 {
+  &.scene__ended {
+    transform: translateY(-100%);
+    transition: 5s $curve;
+    z-index: 1;
+    .line {
+      &[line='1'] {
+        opacity: 1;
+        width: calc(50% + 14.5px);
+      }
+
+      &[line='2'] {
+        opacity: 1;
+        height: calc(50% + 14.5px);
+      }
+    }
+  }
+  .line {
+    opacity: 1;
+    &[line='2'] {
+      height: 0;
+    }
+  }
+  &.scene__active {
+    transition: 5s $curve;
+    z-index: 2;
+
+    .line {
+      transition: 2s linear;
+
+      &[line='1'] {
+        opacity: 1;
+        width: calc(50% + 14.5px);
+      }
+
+      &[line='2'] {
+        transition-delay: 2s;
+        opacity: 1;
+        height: calc(50% + 14.5px);
+      }
+    }
+  }
+
+  .social-screen {
+    > img {
+      opacity: 0;
+      transition: 1s opacity;
+      max-height: 40%;
+      max-width: 30%;
+    }
+    &__show {
+      opacity: 1 !important;
+    }
+    &-fb {
+      position: absolute;
+      left: 5%;
+      top: 25%;
+      transform: rotate(3deg) translateY(-50%);
+      border: 2px solid $white;
+    }
+    &-twitter {
+      position: absolute;
+      left: 38%;
+      top: 25%;
+      transform: rotate(-2deg) translateY(-50%);
+      border: 2px solid $white;
+    }
+    &-insta {
+      position: absolute;
+      max-width: 40% !important;
+      max-height: 50%!important;
+      right: 5%;
+      top: 75%;
+      transform: rotate(-6deg) translateY(-50%);
+      border: 2px solid $white;
+    }
+    &-reddit {
+      position: absolute;
+      right: 5%;
+      top: 35%;
+      z-index: 2;
+      border: 2px solid $white;
+      transform: rotate(4deg) translateY(-50%);
+    }
+  }
+}

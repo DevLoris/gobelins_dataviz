@@ -1,0 +1,22 @@
+.letter {
+  display: inline-block;
+  position: relative;
+  will-change: transform;
+  transform-origin: 50% 50% 25px;
+  opacity: 0;
+  &.fade {
+    opacity: 1;
+    transition: opacity .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  &.space {
+    &:before {
+      content:  ' ';
+    }
+  }
+
+  &.in {
+    opacity: 1;
+    transition: opacity .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+}

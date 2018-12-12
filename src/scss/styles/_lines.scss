@@ -1,0 +1,66 @@
+.red-skew {
+  z-index: 1;
+  position: absolute;
+  bottom: -300px;
+  height: 300px;
+  left: 50%;
+  width: 600px;
+  transform: translateX(-50%) translateZ(0);
+  transition: 10s bottom;
+  will-change: bottom, clip-path;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  &__animate {
+    animation: 2s 4s clip-path-red-skew forwards linear;
+    bottom: calc(-300px + 25%);
+  }
+}
+
+@keyframes clip-path-red-skew {
+  0% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  100% {
+    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+  }
+}
+
+.line {
+  opacity: 0;
+  &__display {
+    opacity: 1;
+  }
+  &__horizontal {
+    width: 0px;
+    z-index: 0;
+    height: 29px;
+    background: url("../assets/images/line__horizontal.png") repeat-x center;
+    &__middle {
+      position: absolute;
+      top: 50%;
+      left:0;
+      transform: translateZ(0) translateY(-50%);
+    }
+    &__to-middle {
+    }
+  }
+  &__vertical {
+    height: 0px;
+    z-index: 0;
+    width: 29px;
+    background: url("../assets/images/line__vertical.png") repeat-x center;
+    &__middle {
+      position: absolute;
+      left: 50%;
+      top:0;
+      transform: translateZ(0) translateX(-50%);
+      height: 100%;
+    }
+    &__from-middle {
+      top: calc(50% - 14.5px);
+    }
+    &__to-middle {
+      top: 0;
+    }
+  }
+
+}

@@ -1,0 +1,57 @@
+.scene__1 {
+  &.scene__ended {
+    transform: translateX(-100%);
+    transition: 5s $curve;
+    z-index: 1;
+  }
+  &.scene__active {
+    transition: 5s $curve;
+    z-index: 2;
+  }
+
+  .phone {
+    z-index: 2;
+    width: 20vw;
+    height: 30vw;
+    background: url('../assets/images/phone/portable-animation0000.png') no-repeat center / auto 100%;
+    animation: 0.4s phone-animation infinite linear;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%) rotate(5deg) translateZ(0);
+    position: absolute;
+    backface-visibility: hidden;
+    .phone-character {
+      background: url('../assets/images/phone/bonhomme.png') no-repeat center / 100% auto;
+      position: absolute;
+      left: 25%;
+      width: 50%;
+      height: 100%;
+      animation: 1s phone-character-animation infinite;
+      backface-visibility: hidden;
+    }
+  }
+
+  .line {
+    opacity: 1;
+    width: 100%;
+  }
+}
+@keyframes phone-animation {
+  0%, 100% {
+    background-image: url('../assets/images/phone/portable-animation0000.png');
+  }
+  33% {
+    background-image: url('../assets/images/phone/portable-animation0001.png');
+  }
+  66% {
+    background-image: url('../assets/images/phone/portable-animation0002.png');
+  }
+}
+/*@keyframes phone-character-animation {
+  50% {
+    filter: saturate(1);
+  }
+  0% {
+    filter: saturate(0);
+  }
+}*/

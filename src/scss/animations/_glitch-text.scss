@@ -1,0 +1,26 @@
+
+.glitch-text {
+  color: $white;
+  position: relative;
+  &:before {
+    content: attr(text);
+    position: absolute;
+    animation: 1.2s infinite text-before-intro;
+  }
+}
+
+
+@keyframes text-before-intro {
+  0%,100%, 50% {
+    opacity: 1;
+    transform: translate(0);
+  }
+  25% {
+    opacity: 0.6;
+    transform: translateX(-2px);
+  }
+  75% {
+    opacity: 0.6;
+    transform: translateX( 2px);
+  }
+}

@@ -1,0 +1,50 @@
+[
+    {
+      "name": "Nom offensant",
+      "severe": false,
+      "values": {
+        "2014": ["27", "19"],
+        "2017": ["30", "23"]
+      }
+    } ,
+    {
+      "name": "Embarras volontaire",
+      "severe": false,
+      "values": {
+        "2014": ["21", "17"],
+        "2017": ["24", "21"]
+      }
+    } ,
+    {
+      "name": "Menaces physiques",
+      "severe": false,
+      "values": {
+        "2014": ["9", "5"],
+        "2017": ["12", "8"]
+      }
+    } ,
+    {
+      "name": "Traquer une personne abusivement",
+      "severe": false,
+      "values": {
+        "2014": ["6", "7"],
+        "2017": ["6", "8"]
+      }
+    },
+    {
+      "name": "Harcélement soutenu",
+      "severe": false,
+      "values": {
+        "2014": ["7", "6"],
+        "2017": ["8", "7"]
+      }
+    },
+    {
+      "name": "Harcélement sexuel",
+      "severe": false,
+      "values": {
+        "2014": ["4", "6"],
+        "2017": ["4", "8"]
+      }
+    }
+  ]

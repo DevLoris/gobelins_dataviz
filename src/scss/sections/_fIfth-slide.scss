@@ -1,0 +1,52 @@
+.scene__5 {
+  &.scene__ended {
+    transform: translateX(100%);
+    transition: 5s $curve;
+    z-index: 1;
+    .line {
+      width: 100%;
+    }
+  }
+  .line {
+    opacity: 1;
+    width: 0%;
+    right: 0;
+    left: auto;
+  }
+  &.scene__active {
+    transition: 5s $curve;
+    z-index: 2;
+    .line {
+      transition: 4s linear;
+      width: 100%;
+      right: 0;
+    }
+  }
+
+
+  .phone {
+    z-index: 2;
+    width: 20vw;
+    height: 30vw;
+    background: url('../assets/images/phone/portable-nude-animation0000.png') no-repeat center / auto 100%;
+    animation: 0.4s phone-animation-nude infinite linear;
+    top: 50%;
+    left: 15vw;
+    transform: translateY(-50%) rotate(5deg) translateZ(0);
+    position: absolute;
+    backface-visibility: hidden;
+  }
+}
+
+
+@keyframes phone-animation-nude {
+  0%, 100% {
+    background-image: url('../assets/images/phone/portable-nude-animation0000.png');
+  }
+  33% {
+    background-image: url('../assets/images/phone/portable-nude-animation0001.png');
+  }
+  66% {
+    background-image: url('../assets/images/phone/portable-nude-animation0002.png');
+  }
+}
