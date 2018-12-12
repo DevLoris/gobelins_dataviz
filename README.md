@@ -2,6 +2,8 @@
 
 A project about online harassment for Gobelins' Dataviz project. Graphism by Antoine Rault and development by Loris Pinna.
 
+## Demo
+http://harassment.lorispinna.com
 
 ## Installation
 
